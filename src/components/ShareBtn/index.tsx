@@ -38,10 +38,19 @@ const ShareBtn = ({ url }: ShareProps) => {
         type="button"
         onClick={handleClick}
         disabled={!isSupported || isShared}
-        className="text-2xl px-4 py-2 rounded-lg text-white bg-blue-600 hover:bg-white hover:text-blue-900 hover:border-2 hover:border-blue-900"
+        className="text-2xl px-4 py-2 rounded-lg text-blue-950 bg-white border-2 border-blue-950 hover:bg-blue-900 hover:border-blue-900 hover:text-white"
       >
         Share
       </button>
+      <p>
+        I Have Taken The Refrence From
+        <a
+          className="font-semibold underline px-1"
+          href="https://twitter.com/buildWithKris"
+        >
+          Kristoffer Eriksson
+        </a>
+      </p>
     </div>
   );
 };
