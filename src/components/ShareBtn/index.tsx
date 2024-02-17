@@ -42,7 +42,7 @@ const ShareBtn = ({ url }: ShareProps) => {
       >
         Share
       </button>
-      <p>
+      <p className="text-center">
         I Have Taken The Refrence From
         <a
           className="font-semibold underline px-1"
